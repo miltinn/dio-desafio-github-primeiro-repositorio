@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dbdfe8;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+/* Para telas menores que 992px define-se o comprimento máximo e margem */
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        margin: 1rem auto;
+        height: auto;
+        border-radius: 1rem;
+    }
+}
+
+.content h1 {
+    margin: 0;
+}
