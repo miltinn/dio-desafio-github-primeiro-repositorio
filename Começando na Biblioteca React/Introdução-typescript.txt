@@ -1,0 +1,46 @@
+TypeScript
+
+- Superset de JavaScript (algo como um upgrade)
+- Exemplos de aplicações: Tipagem estática (tipos de variáveis definidos explicitamente no código), orientação a objetos, herança, classes
+- Possui maior potencial de detecção de erros durante o desenvolvimento de projetos
+
+-Tipagem estática:
+    const nome: string = 'Milton'
+    const idade: number = 23;
+    const ativo: boolean = false;
+
+-Inferência de tipos (O typescript já reconhece a variável como string/number/boolean)
+    const nome = 'Milton'
+    const idade = 23;
+    const ativo = false;
+
+-Interfaces
+    interface IUsuario {
+        nome: string;
+        idade: number;
+        ativo: boolean
+    }
+
+    const usuario: IUsuario = {
+        nome: 'Milton',
+        idade: 23,
+        ativo: true
+    }
+
+-Enumeradores
+    enum CARGO {
+        DESENVOLVEDOR = 'desenvolvedor'
+    }
+
+    const usuario = {
+        nome: 'Milton',
+        cargo: CARGO.DESENVOLVEDOR
+    }
+Instalando TypeScript no projeto:
+https://create-react-app.dev/docs/adding-typescript/
+
+Instala dependências de desenvolvimento typescript
+yarn add typescript @types/node @types/react @types/react-dom @types/jest -D
+
+Inicia o typescript
+npx tsc --init
