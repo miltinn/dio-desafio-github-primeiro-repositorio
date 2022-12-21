@@ -6,7 +6,7 @@
 * React DevTools - Extensão Browser
 * [ReactJS](https://pt-br.reactjs.org)
 
-####Extensões para Visual Studio Code:
+#### Extensões para Visual Studio Code:
 * **Bracket Pair Colorizer**: Identifica chaves com cores customizáveis
 * **Color Highlight/Colorize**: Mostra cores do CSS nas variáveis
 * **Color Picker**: Paleta de cores dentro do código
